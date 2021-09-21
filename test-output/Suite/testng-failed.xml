@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]" parallel="tests">
+  <test name="NewProject(failed)" parallel="tests">
+    <classes>
+      <class name="Qantily.Registrationclient">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Qantily.Registrationclient -->
+      <class name="Qantily.NewProject">
+        <methods>
+          <include name="verify_version"/>
+          <include name="verify_version_with_other_app"/>
+          <include name="search_app"/>
+          <include name="change_package"/>
+          <include name="verify_add_basic_deatils"/>
+          <include name="CheckImage"/>
+          <include name="choose_package"/>
+          <include name="change_package_select_low"/>
+          <include name="provide_build_url"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Qantily.NewProject -->
+      <class name="Qantily.NewProjectios">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Qantily.NewProjectios -->
+      <class name="Qantily.ManualMethod">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Qantily.ManualMethod -->
+      <class name="Qantily.Registeration">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Qantily.Registeration -->
+    </classes>
+  </test> <!-- NewProject(failed) -->
+  <test name="NewProjectios(failed)" parallel="tests">
+    <classes>
+      <class name="Qantily.Registrationclient">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Qantily.Registrationclient -->
+      <class name="Qantily.NewProject">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Qantily.NewProject -->
+      <class name="Qantily.NewProjectios">
+        <methods>
+          <include name="verify_add_basic_deatils"/>
+          <include name="verify_baseprise_after_select_low"/>
+          <include name="verify_baseprise_after_change_package"/>
+          <include name="provide_build_url"/>
+          <include name="get_sub_total_value_after_change_package"/>
+          <include name="click_with_continue"/>
+          <include name="get_sub_total_value_after_select_low"/>
+          <include name="add_new_project"/>
+          <include name="verify_baseprise_on_cart"/>
+          <include name="verify_platform"/>
+          <include name="beforeTest"/>
+          <include name="get_Link_to_your_app_on_App_store"/>
+          <include name="verify_baseprise_on_cart_after_package"/>
+          <include name="use_ios_method"/>
+          <include name="verify_cart_summary"/>
+          <include name="CheckImage"/>
+          <include name="change_package_select_low"/>
+          <include name="get_application_name"/>
+          <include name="change_package"/>
+          <include name="get_sub_total_value"/>
+          <include name="search_app"/>
+          <include name="verify_subtotal_on_cart"/>
+          <include name="verify_version"/>
+          <include name="verify_version_with_other_app"/>
+          <include name="click_on_continue"/>
+          <include name="choose_package"/>
+          <include name="verify_platform_after_package"/>
+        </methods>
+      </class> <!-- Qantily.NewProjectios -->
+      <class name="Qantily.ManualMethod">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Qantily.ManualMethod -->
+      <class name="Qantily.Registeration">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Qantily.Registeration -->
+    </classes>
+  </test> <!-- NewProjectios(failed) -->
+  <test name="ManualMethod(failed)" parallel="tests">
+    <classes>
+      <class name="Qantily.Registrationclient">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Qantily.Registrationclient -->
+      <class name="Qantily.NewProject">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Qantily.NewProject -->
+      <class name="Qantily.NewProjectios">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Qantily.NewProjectios -->
+      <class name="Qantily.ManualMethod">
+        <methods>
+          <include name="verify_platform_icon"/>
+          <include name="verfy_manual_string"/>
+          <include name="verify_platform"/>
+          <include name="beforeTest"/>
+          <include name="add_project_title"/>
+          <include name="use_manual_method"/>
+          <include name="verify_description_for_manual"/>
+          <include name="add_new_project"/>
+          <include name="select_browser"/>
+        </methods>
+      </class> <!-- Qantily.ManualMethod -->
+      <class name="Qantily.Registeration">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Qantily.Registeration -->
+    </classes>
+  </test> <!-- ManualMethod(failed) -->
+  <test name="Registeration(failed)" parallel="tests">
+    <classes>
+      <class name="Qantily.Registrationclient">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Qantily.Registrationclient -->
+      <class name="Qantily.NewProject">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Qantily.NewProject -->
+      <class name="Qantily.NewProjectios">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Qantily.NewProjectios -->
+      <class name="Qantily.ManualMethod">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Qantily.ManualMethod -->
+      <class name="Qantily.Registeration">
+        <methods>
+          <include name="Verify_phone_number_field_with_minus_values"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Qantily.Registeration -->
+    </classes>
+  </test> <!-- Registeration(failed) -->
+  <test name="Registrationclient(failed)" parallel="tests">
+    <classes>
+      <class name="Qantily.Registrationclient">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="Verify_phone_number_field_with_minus_values"/>
+        </methods>
+      </class> <!-- Qantily.Registrationclient -->
+      <class name="Qantily.NewProject">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Qantily.NewProject -->
+      <class name="Qantily.NewProjectios">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Qantily.NewProjectios -->
+      <class name="Qantily.ManualMethod">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Qantily.ManualMethod -->
+      <class name="Qantily.Registeration">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Qantily.Registeration -->
+    </classes>
+  </test> <!-- Registrationclient(failed) -->
+</suite> <!-- Failed suite [Suite] -->

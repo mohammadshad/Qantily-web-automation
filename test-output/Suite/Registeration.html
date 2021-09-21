@@ -1,0 +1,315 @@
+<html>
+<head>
+<title>TestNG:  Registeration</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Registeration</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>38/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 17 13:41:27 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>166 seconds (166366 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Qantily.Registeration.Verify_phone_number_field_with_minus_values()'><b>Verify_phone_number_field_with_minus_values</b><br>Test class: Qantily.Registeration</td>
+<td><div><pre>junit.framework.ComparisonFailure: expected:&lt;Enter a valid [phone number]&gt; but was:&lt;Enter a valid [domain]&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at Qantily.Registeration.Verify_phone_number_field_with_minus_values(Registeration.java:475)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace806739772", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace806739772'><pre>junit.framework.ComparisonFailure: expected:&lt;Enter a valid [phone number]&gt; but was:&lt;Enter a valid [domain]&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at Qantily.Registeration.Verify_phone_number_field_with_minus_values(Registeration.java:475)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>6</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Qantily.Registeration.Verify_phone_number_field_with_10_zeros()'><b>Verify_phone_number_field_with_10_zeros</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>7</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.Verify_phone_number_field_with_less_than_10_digits()'><b>Verify_phone_number_field_with_less_than_10_digits</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>6</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.Verify_phone_number_field_with_more_than_10_digits()'><b>Verify_phone_number_field_with_more_than_10_digits</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>7</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.checkbox_string1()'><b>checkbox_string1</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>4</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.checkbox_string2()'><b>checkbox_string2</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>4</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.checkbox_string3()'><b>checkbox_string3</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>4</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.click_start_testing_now()'><b>click_start_testing_now</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>4</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.email_address_field_without_Sign()'><b>email_address_field_without_Sign</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>8</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.email_address_field_without_Sign_domain()'><b>email_address_field_without_Sign_domain</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>8</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.enter_name_fields()'><b>enter_name_fields</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>3</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.first_checkbox_enabled()'><b>first_checkbox_enabled</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>0</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.register()'><b>register</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>4</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.second_checkbox_enabled()'><b>second_checkbox_enabled</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>0</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.select_city()'><b>select_city</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>3</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.select_country()'><b>select_country</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>3</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.select_state()'><b>select_state</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>3</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.social_logins()'><b>social_logins</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>3</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.social_logins_on_details()'><b>social_logins_on_details</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>3</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.social_logins_on_location()'><b>social_logins_on_location</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>3</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.third_checkbox_enabled()'><b>third_checkbox_enabled</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>0</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.validation_on_numeric_field_phone_number_by_entering_alphabets_and_special_characters()'><b>validation_on_numeric_field_phone_number_by_entering_alphabets_and_special_characters</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>6</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.verify_city_field()'><b>verify_city_field</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>2</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.verify_contry_fields()'><b>verify_contry_fields</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>2</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.verify_domain_field()'><b>verify_domain_field</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>2</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.verify_email_address_field()'><b>verify_email_address_field</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>2</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.verify_name_fields()'><b>verify_name_fields</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>2</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.verify_password_field()'><b>verify_password_field</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>2</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.verify_phone_field()'><b>verify_phone_field</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>2</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.verify_repeat_field()'><b>verify_repeat_field</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>2</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.verify_specified_fields()'><b>verify_specified_fields</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>2</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.verify_state_field()'><b>verify_state_field</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>2</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.verify_with_blank_domian()'><b>verify_with_blank_domian</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>6</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.verify_with_invalid_repeat_password()'><b>verify_with_invalid_repeat_password</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>6</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.verify_with_valid_domian()'><b>verify_with_valid_domian</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>6</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.verify_with_valid_email_address()'><b>verify_with_valid_email_address</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>6</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.verify_with_valid_password()'><b>verify_with_valid_password</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>6</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.verify_with_valid_phone_number()'><b>verify_with_valid_phone_number</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>8</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+<tr>
+<td title='Qantily.Registeration.verify_with_valid_repeat_password()'><b>verify_with_valid_repeat_password</b><br>Test class: Qantily.Registeration</td>
+<td></td>
+<td>8</td>
+<td>Qantily.Registeration@10a035a0</td></tr>
+</table><p>
+</body>
+</html>
